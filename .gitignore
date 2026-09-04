@@ -1,0 +1,126 @@
+# ====================================================================
+# Android Studio & Gradle - Git Ignore Configuration
+# Cocok untuk proyek belajar Android Studio & Kotlin
+# ====================================================================
+
+# --------------------------------------------------------------------
+# 1. Output Hasil Build (Ukuran paling besar, file binary compiled)
+# --------------------------------------------------------------------
+build/
+**/build/
+bin/
+gen/
+out/
+buildOutputCleanup/
+
+# Android Package & App Bundle binaries
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Bytecode files (Java / Dalvik VM)
+*.class
+*.dex
+
+# --------------------------------------------------------------------
+# 2. Gradle Cache & Daemon
+# --------------------------------------------------------------------
+.gradle/
+.gradletasknamecache
+gradle-app.setting
+
+# PENTING: Jangan ignore Gradle Wrapper agar project bisa di-build di komputer lain / GitHub Actions
+!gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.properties
+
+# --------------------------------------------------------------------
+# 3. Android Studio & IntelliJ IDEA (Pengaturan IDE & Cache lokal)
+# --------------------------------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.navigation/
+captures/
+output-metadata.json
+output.json
+
+# --------------------------------------------------------------------
+# 4. Kotlin & Language Server Cache
+# --------------------------------------------------------------------
+.kotlin/
+kls_database.db*
+.kls/
+
+# --------------------------------------------------------------------
+# 5. Konfigurasi Lokal & File Rahasia (Sangat penting, jangan di-push!)
+# --------------------------------------------------------------------
+# Berisi path Android SDK di komputer lokal (berbeda di tiap komputer)
+local.properties
+
+# File rahasia (API Keys, Token)
+secrets.properties
+apikey.properties
+
+# Keystore & Signing keys (Sertifikat rilis)
+*.jks
+*.keystore
+*.key
+
+# Google Services / Firebase (opsional jika memiliki API key privat)
+google-services.json
+
+# --------------------------------------------------------------------
+# 6. Android Profiling, Tracing, & Memory Dump
+# --------------------------------------------------------------------
+*.hprof
+trace.txt
+hs_err_pid*
+replay_pid*
+
+# --------------------------------------------------------------------
+# 7. Log & Crash Reports
+# --------------------------------------------------------------------
+*.log
+
+# --------------------------------------------------------------------
+# 8. NDK & Native C/C++ Build (Jika menggunakan C++)
+# --------------------------------------------------------------------
+.externalNativeBuild/
+.cxx/
+cmakeBuild/
+ndkBuild/
+obj/
+
+# --------------------------------------------------------------------
+# 9. Editor Lain (VS Code, Eclipse, NetBeans)
+# --------------------------------------------------------------------
+.vscode/
+*.code-workspace
+.project
+.classpath
+.settings/
+.apt_generated
+
+# --------------------------------------------------------------------
+# 10. File Sampah Sistem Operasi (OS Junk Files)
+# --------------------------------------------------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux / Vim temporary
+*~
+*.swp
+*.swo
