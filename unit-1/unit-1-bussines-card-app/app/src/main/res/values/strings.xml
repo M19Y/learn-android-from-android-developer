@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card App</string>
+    <string name="full_name">Not Normal</string>
+    <string name="title">Android Developer</string>
+    <string name="social">\@Not_Normal</string>
+    <string name="email">notnormal00000@gmail.com</string>
+    <string name="phone">+62 0899 1111 0000</string>
+</resources>
