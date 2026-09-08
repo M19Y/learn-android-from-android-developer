@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="mount_bromo_indonesia">Mount Bromo, Indonesia</string>
+    <string name="padar_island_indonesia">Padar Island, Indonesia</string>
+    <string name="jatiluwih_indonesia">Jatiluwih, Indonesia</string>
+    <string name="raja_ampat_indonesia">Raja Ampat, Indonesia</string>
+    <string name="borobudur_indonesia">Borobudur, Indonesia</string>
+    <string name="years">(%s)</string>
+    <string name="anonymous">anonymous</string>
+</resources>
