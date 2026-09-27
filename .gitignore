@@ -12,6 +12,7 @@ bin/
 gen/
 out/
 buildOutputCleanup/
+resources/
 
 # Android Package & App Bundle binaries
 *.apk
